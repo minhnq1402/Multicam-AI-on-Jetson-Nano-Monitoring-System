@@ -23,16 +23,10 @@ Tối ưu bộ nhớ: Sử dụng cơ chế drop=1 và quản lý bộ nhớ đ�
 
 AI Core: YOLOv4-tiny + TensorRT (FP16).
 
-Kết quả: Đã huấn luyện trên 16,000 ảnh (24 Epochs), đạt mAP@0.50 ~88%.
+Kết quả: Đã huấn luyện trên 16,000 ảnh , đạt mAP@0.50 ~88%.
 
 🛠 Cài đặt & Sử dụng
 Bước 1: Chuẩn bị môi trường
-Dự án dựa trên thư viện tensorrt_demos. Hãy clone repo gốc trước:
-
-Bash
-git clone [https://github.com/jkjung-avt/tensorrt_demos.git](https://github.com/jkjung-avt/tensorrt_demos.git)
-cd tensorrt_demos
-Sau đó copy toàn bộ file của dự án này (main_12cam.py, requirements.txt,...) vào thư mục vừa clone.
 
 Bước 2: Cài đặt thư viện phụ thuộc
 Bash
@@ -60,8 +54,8 @@ Thiết bị: Jetson Nano 4GB Dev Kit.
 
 Số lượng Cam: 12.
 
-RAM tiêu thụ: ~3.6 GB / 4.0 GB.
+RAM tiêu thụ: ~2.8 GB / 4.0 GB.
 
-Swap tiêu thụ: ~1.5 GB.
+Swap tiêu thụ: ~1.3 GB.
 
 Độ trễ (Latency): < 300ms.
