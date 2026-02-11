@@ -59,3 +59,6 @@ RAM tiêu thụ: ~2.8 GB / 4.0 GB.
 Swap tiêu thụ: ~1.3 GB.
 
 Độ trễ (Latency): < 300ms.
+
+DEMO
+https://github.com/user-attachments/assets/487e3974-e5ac-4be8-acf3-37ab80c32a43
