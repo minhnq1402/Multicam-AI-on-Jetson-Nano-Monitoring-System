@@ -1,4 +1,4 @@
-# 12-Camera Real-time Detection System on Jetson Nano 🔥
+# 12-Camera Real-time Detection System on Jetson Nano 
 
 Dự án triển khai hệ thống phát hiện vật thể (Lon Bim) thời gian thực trên **12 luồng Camera IP** đồng thời, đẩy hiệu năng của **NVIDIA Jetson Nano** tới giới hạn tối đa.
 
@@ -6,7 +6,7 @@ Dự án triển khai hệ thống phát hiện vật thể (Lon Bim) thời gia
 ![Status](https://img.shields.io/badge/Status-Extreme%20Load-red)
 ![FPS](https://img.shields.io/badge/FPS-Realtime-blue)
 
-## ⚠️ CẢNH BÁO PHẦN CỨNG (QUAN TRỌNG)
+## CẢNH BÁO PHẦN CỨNG (QUAN TRỌNG)
 Để chạy được 12 Camera trên Jetson Nano (4GB RAM), bạn **BẮT BUỘC** phải thực hiện các bước sau, nếu không máy sẽ bị treo (Crash):
 1. **Tạo RAM ảo (Swap File):** Cần tối thiểu **4GB Swap** (Khuyên dùng 6GB).
 2. **Chế độ nguồn:** Bật chế độ hiệu năng cao (Max-N).
@@ -16,7 +16,7 @@ Dự án triển khai hệ thống phát hiện vật thể (Lon Bim) thời gia
 
 Camera Stream: Chỉ sử dụng luồng phụ Sub-stream (VGA 640x480 hoặc thấp hơn). Tuyệt đối không dùng Main-stream (Full HD).
 
-🌟 Tính năng
+Tính năng
 Giám sát diện rộng: Hiển thị lưới 3x4 (12 Camera) trên cùng một màn hình.
 
 Tối ưu bộ nhớ: Sử dụng cơ chế drop=1 và quản lý bộ nhớ đệm chặt chẽ để tránh tràn RAM.
@@ -49,7 +49,7 @@ RTSP_LINKS = [
 Bước 5: Chạy chương trình
 Bash
 python3 main_12cam.py
-📊 Hiệu năng (Benchmark)
+ Hiệu năng (Benchmark)
 Thiết bị: Jetson Nano 4GB Dev Kit.
 
 Số lượng Cam: 12.
