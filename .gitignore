@@ -1,0 +1,8 @@
+__pycache__/
+*.py[cod]
+*.weights
+*.engine
+*.onnx
+data/train.txt
+data/backup/
+.vscode/

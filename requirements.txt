@@ -1,0 +1,5 @@
+numpy
+opencv-python
+pycuda
+protobuf
+onnx==1.9.0
