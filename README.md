@@ -49,7 +49,7 @@ Mở file main_12cam.py, chỉnh sửa danh sách RTSP_LINKS. Đảm bảo các 
 
 Python
 RTSP_LINKS = [
-    "rtsp://admin:pass@192.168.1.128:554/ch1/sub",
+    "rtsp://admin:pass@/ch1/sub",
     ...
 ]
 Bước 5: Chạy chương trình
